@@ -1,0 +1,55 @@
+/* FAQ.css */
+.faq-container {
+    margin: 20px;
+    padding: 15px; /* Added more padding for better spacing */
+    background-color: #c3ce6a; /* Forest-related background color */
+    border-radius: 8px; /* Rounded corners */
+    color: #333; /* Text color for contrast */
+    font-family: Arial, sans-serif; /* Font family */
+}
+
+.faq-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.faq-item {
+    padding: 15px; /* Increased padding for better spacing */
+    border-bottom: 1px solid #a0a0a0; /* Gray border color */
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 10px; /* Added margin between FAQ items */
+}
+
+.faq-item:hover {
+    background-color: #dae0b7; /* Light green background color on hover */
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-arrow {
+    font-weight: bold;
+    font-size: 1.2rem; /* Larger size for visibility */
+    margin-left: 10px;
+}
+
+.faq-answer {
+    display: none; /* Initially hide the answers */
+    margin-top: 10px; /* Space above the answer */
+    padding: 10px;
+    border-radius: 4px; /* Rounded corners */
+    background-color: #e6ebcc; /* Light green background for the answer */
+}
+
+.faq-item.open .faq-answer {
+    display: block; /* Display the answer when the FAQ item is open */
+}

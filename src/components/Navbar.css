@@ -1,0 +1,28 @@
+/* Navigation.css */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #aa9f67;
+    color:  #625b3a;
+    padding: 10px 0;
+    font-family: Arial, sans-serif;
+    width: 100%; /* Ensure the navbar fills the entire width of the page */
+    position: fixed; /* Fixed position at the top of the page */
+    z-index: 1000; /* Ensure the navbar is above other content */
+    top: 0;
+    right: 15px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color:  #625b3a;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbar a:hover {
+    background-color: #514631;
+    color: #fff;
+  }
+  

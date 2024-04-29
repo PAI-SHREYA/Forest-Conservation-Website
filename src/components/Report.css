@@ -1,0 +1,63 @@
+/* Centering the form on the page */
+.report-form-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    /* background-image: url('https://wallpapers.com/images/hd/coniferous-forest-sunlight-s7taj1s71bkpyqgd.jpg'); Updated background image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Ensures the background remains fixed */
+  }
+  
+  h2 {
+    align-items: center;
+  }
+  
+  /* Appropriate CSS for the ReportForm component */
+  
+  /* Styling for the form */
+  .report-form {
+    background-color: rgba(203, 191, 165, 0.7); /* Adjusted background color with opacity */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  /* Styling for the input and textarea */
+  .report-form input,
+  .report-form textarea,
+  .report-form select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the submit button */
+  .report-form button {
+    background-color: #9caa1e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Styling for the submit button on hover */
+  .report-form button:hover {
+    background-color: #b8a98f;
+  }
+  
+  /* Styling for the success message */
+  .success-message {
+    background-color: rgba(203, 191, 165, 0.7); /* Same background color as the form */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+  }

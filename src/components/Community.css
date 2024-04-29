@@ -1,0 +1,80 @@
+/* Community.css */
+.community-container {
+    background-color: #c3ce6a; /* Use the desired forest-related background color */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+    color: #333; /* Text color for contrast */
+    font-family: Arial, sans-serif;
+}
+
+.community-form {
+    margin-bottom: 20px;
+}
+
+.community-textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #a0a0a0; /* Border color */
+    margin-bottom: 10px;
+}
+
+.community-messages {
+    list-style-type: none;
+    padding: 0;
+}
+
+.message-item {
+    padding: 10px;
+    border-bottom: 1px solid #a0a0a0; /* Border color */
+    margin-bottom: 10px;
+}
+
+.post-message {
+    margin-bottom: 10px;
+}
+
+.replies-list {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.reply-item {
+    margin-bottom: 5px;
+}
+
+.reply-form {
+    margin-top: 10px;
+}
+
+.reply-textarea {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #a0a0a0; /* Border color */
+    margin-bottom: 10px;
+}
+
+.reply-button,
+.btn-primary {
+    background-color: #689f38; /* Forest green color for buttons */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.reply-button:hover,
+.btn-primary:hover {
+    background-color: #558b2f; /* Darker forest green color for hover effect */
+}
+
+.reply-button:active,
+.btn-primary:active {
+    background-color: #33691e; /* Darker green for active state */
+}
